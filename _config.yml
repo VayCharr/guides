@@ -1,6 +1,2 @@
 markdown: kramdown
 theme: minima
-
-# Custom CSS
-include:
-  - styles.css
