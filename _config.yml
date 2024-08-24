@@ -3,3 +3,14 @@ markdown: kramdown
 remote_theme: pages-themes/midnight@v0.2.0
 plugins:
 - jekyll-remote-theme
+
+navigation:
+  - title: "Home"
+    url: /
+  - title: "Guides"
+    url: /guides/
+
+collections:
+  guides:
+    output: true
+    permalink: /guides/:path/

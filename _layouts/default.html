@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | escape }} - {{ site.title | escape }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+    <nav>
+      <ul>
+        <li><a href="{{ site.baseurl }}/">Home</a></li>
+        <li><a href="{{ site.baseurl }}/guides/">Guides</a></li>
+        <!-- Other navigation links -->
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    {{ content }}
+  </main>
+
+  <!-- Guides Section -->
+  <section id="guides">
+    <h2>Guides</h2>
+    <ul>
+      {% assign guides = site.guides %}
+      {% for guide in guides %}
+        <li>
+          <a href="{{ guide.url }}">{{ guide.title }}</a>
+          <p>{{ guide.description }}</p>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
+  </footer>
+
+</body>
+</html>
