@@ -1,3 +1,8 @@
+---
+layout: default
+title: Directing Steam to Your Standalone Installation
+---
+
 # Directing Steam to Your Standalone Installation
 
 ## Select Installation Location
