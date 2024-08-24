@@ -4,7 +4,7 @@ title: Vay's GitHub Pages
 permalink: /
 ---
 
-## Guides
+# Guides
 
 <ul>
   {% assign guides = site.guides %}
