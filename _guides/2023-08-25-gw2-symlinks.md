@@ -11,7 +11,9 @@ categories:
 
 Determine where you want your Guild Wars 2 Steam installation to be located. The folder structure typically looks like this:
 
+```text
 C:\Program Files (x86)\Steam\steamapps\common
+```
 
 Make sure there is no existing Guild Wars 2 folder within your Steam directory. If one exists, delete it to prevent any conflicts.
 
@@ -25,16 +27,18 @@ Make sure there is no existing Guild Wars 2 folder within your Steam directory. 
 
 Use `mklink` to create a Directory Junction that points your Guild Wars 2 Steam folder to the standalone folder. The `mklink` syntax is as follows:
 
+```text
 mklink /J <link> <target>
-
+```
 
 - Replace `<link>` with the path to your Steam Guild Wars 2 folder.
 - Replace `<target>` with the location of your existing Guild Wars 2 installation folder.
 
 For example:
 
+```text
 mklink /J "C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2" "C:\Your\Existing\Guild Wars 2\Folder"
-
+```
 
 ## Start Installation via Steam
 
@@ -61,8 +65,9 @@ To utilize your ArenaNet account instead of your Steam account, follow these ste
 
 Add the following launch parameter within the Launch Options section:
 
+```text
 -provider Portal
-
+```
 
 This parameter ensures that Guild Wars 2 will utilize your ArenaNet account for authentication instead of your Steam account.
 
