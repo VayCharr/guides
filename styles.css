@@ -1,20 +1,5 @@
 /* Default light mode styles */
 body {
-    background-color: #ffffff;
-    color: #000000;
-  }
-  
-  /* Dark mode styles */
-  @media (prefers-color-scheme: dark) {
-    body {
-      background-color: #121212;
-      color: #ffffff;
-    }
-  }
-  
-  /* Optional: Force dark mode with a class */
-  body.dark-mode {
     background-color: #121212;
     color: #ffffff;
-  }
-  
+}
