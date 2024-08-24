@@ -1,16 +1,19 @@
 ---
 layout: default
-title: Vay's GitHub Pages
+title: Guides
+permalink: /guides/
 ---
 
-## Guides
+# Guides
+
+Welcome to the Guides section. Here are all the guides available:
 
 <ul>
   {% assign guides = site.guides %}
   {% for guide in guides %}
     <li>
       <a href="{{ guide.url }}">{{ guide.title }}</a>
-      <p>{{ guide.description | markdownify | strip_html | truncatewords: 20 }}</p>
+      <p>{{ guide.description }}</p>
     </li>
   {% endfor %}
 </ul>
