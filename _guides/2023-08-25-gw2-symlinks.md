@@ -24,9 +24,9 @@ Make sure there is no existing Guild Wars 2 folder within your Steam directory. 
 
 ## Open command prompt as administrator
 
-1. Open the Windows start menu.
-2. Type "cmd".
-3. Select "Run as administrator" to ensure you have the necessary permissions for the upcoming steps.
+- Open the Windows start menu.
+- Type "cmd".
+- Select "Run as administrator" to ensure you have the necessary permissions for the upcoming steps.
 
 ![Open command prompt as administrator]({{ page.asset_path }}/cmd_admin.png)
 
@@ -67,15 +67,15 @@ To utilize your ArenaNet account instead of your Steam account, follow these ste
 
 ### Access Guild Wars 2 properties in Steam library
 
-1. Right-click on Guild Wars 2 within your Steam Library.
-2. Select "Properties."
+- Right-click on Guild Wars 2 within your Steam Library.
+- Select "Properties."
 
 ![Steam properties window]({{ page.asset_path }}/steam_properties_window.png)
 
 ### Add launch parameter
 
-1. In the Properties window, locate the "Launch Options" section.
-2. Add the following launch parameter within the Launch Options section:
+- In the Properties window, locate the "Launch Options" section.
+- Add the following launch parameter within the Launch Options section:
 
 ```text
 -provider Portal
@@ -91,42 +91,38 @@ The popular open-source account managing tool, Gw2Launcher, supports launching a
 
 ### General settings
 
-1. Click on the menu icon located in the top-left corner of Gw2Launcher.
-2. Select "Settings."
+- Click on the menu icon located in the top-left corner of Gw2Launcher.
+- Select "Settings."
 
 ![GW2Launcher]({{ page.asset_path }}/gw2launcher_settings.png)
 
-3. Within the Settings menu, navigate to the "Guild Wars 2" tab.
-4. Click on "Steam."
+- Within the Settings menu, navigate to the "Guild Wars 2" tab.
+- Click on "Steam."
 
 ![GW2Launcher]({{ page.asset_path }}/gw2launcher_settings_2.png)
 
-#### Settings
-
-- Adjust Steam installation location
+#### Adjust Steam installation location
 
 If your Steam installation is not in the default directory, specify its location here.
 
-- Configure launch behavior
+#### Configure launch behavior
 
 Choose how Gw2Launcher should behave when launching multiple accounts through Steam.
 
 ### Account settings
 
-1. Right-click on the account(s) you intend to launch via Steam within Gw2Launcher.
-2. Select "Edit."
+- Right-click on the account(s) you intend to launch via Steam within Gw2Launcher.
+- Select "Edit."
 
 ![GW2Launcher]({{ page.asset_path }}/gw2launcher_settings_3.png)
 
 In the account editing window, navigate to the "Launch options" section.
 
-#### Relevant settings
-
-- Set provider to ArenaNet
+#### Set provider to ArenaNet
 
 Ensure that "ArenaNet (Default)" is selected under the Provider dropdown menu.
 
-- Enable Steam launch
+#### Enable Steam launch
 
 Check the box labeled "Launch through Steam" to enable launching via Steam for the selected account(s).
 
