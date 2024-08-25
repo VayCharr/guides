@@ -1,12 +1,16 @@
 ---
 layout: post
-title: Directing Steam to Your Standalone Installation
+title: Guild Wars 2 - Directing Steam to your standalone installation
 asset_path: /assets/guides/2023-08-25-gw2-symlinks
 categories: 
   - guides
 ---
 
-# Guild Wars 2 guide - Directing Steam to Your Standalone Installation
+# Using Directory Junctions
+
+Using a Directory Junction, you can re-use the files you already have from your standalone GW2 installation on Steam. This works because the Steam version is a 1:1 copy of the standalone version (aside from some Steam-specific configuration files).
+
+[mklink — Microsoft Documentation](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/mklink)]
 
 ## Select Installation Location
 
@@ -84,7 +88,7 @@ Add the following launch parameter within the Launch Options section:
 
 This parameter ensures that Guild Wars 2 will utilize your ArenaNet account for authentication instead of your Steam account.
 
-# Using Gw2Launcher to Launch Through Steam
+## Using Gw2Launcher to Launch Through Steam
 
 The popular open-source account managing tool, Gw2Launcher, supports launching accounts through Steam.
 
