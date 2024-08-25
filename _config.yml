@@ -1,9 +1,13 @@
 markdown: kramdown
 
+remote_theme: jekyll/minima #Use remote_theme for newer build
+plugins:
+  - jekyll-remote-theme
+  
 minima:  
   skin: dark
 
-theme: minima
+
 
 navigation:
   - title: "Home"
