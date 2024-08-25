@@ -1,11 +1,12 @@
 ---
 layout: post
 title: Directing Steam to Your Standalone Installation
+asset_path: /assets/guides/2023-08-25-gw2-symlinks
 categories: 
   - guides
 ---
 
-# Directing Steam to Your Standalone Installation
+# Guild Wars 2 guide - Directing Steam to Your Standalone Installation
 
 ## Select Installation Location
 
@@ -22,6 +23,8 @@ Make sure there is no existing Guild Wars 2 folder within your Steam directory. 
 1. Open the Windows Start menu.
 2. Type "cmd".
 3. Select "Run as administrator" to ensure you have the necessary permissions for the upcoming steps.
+
+![Open command prompt as administrator]({{ page.asset_path }}/3025667129_preview_3025667129_preview_2023.08.26_10.49.47_chrome.png)
 
 ## Create a Directory Junction
 
