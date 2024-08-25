@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Directing Steam to Your Standalone Installation
 categories: 
   - guides
