@@ -4,8 +4,6 @@ title: Guides
 permalink: /guides/
 ---
 
-# Guides
-
 Welcome to the Guides section. Here are all the guides available:
 
 <ul>

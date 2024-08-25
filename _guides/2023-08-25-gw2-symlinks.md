@@ -10,7 +10,7 @@ categories:
 
 Using a Directory Junction, you can re-use the files you already have from your standalone GW2 installation on Steam. This works because the Steam version is a 1:1 copy of the standalone version (aside from some Steam-specific configuration files).
 
-[mklink — Microsoft Documentation](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/mklink)]
+[mklink — Microsoft Documentation](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/mklink)
 
 ## Select Installation Location
 
